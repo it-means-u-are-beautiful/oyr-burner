@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>oyr Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #222222;
+    --muted: #666666;
+    --link: #2a5db0;
+    --rule: #e2e2e2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #161616; --fg: #dddddd; --muted: #999999; --link: #7aa7f0; --rule: #333333; color-scheme: dark; }
+  }
+  :root[data-theme="dark"] { --bg: #161616; --fg: #dddddd; --muted: #999999; --link: #7aa7f0; --rule: #333333; color-scheme: dark; }
+  body { background: var(--bg); color: var(--fg); font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.6; }
+  .page { max-width: 680px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 56px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 20px; margin: 30px 0 8px; }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-left: 24px; }
+  li { margin-bottom: 4px; }
+  a { color: var(--link); }
+  .updated { color: var(--muted); font-size: 15px; margin-bottom: 24px; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 32px 0 16px; }
+  .small { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>oyr Privacy Policy</h1>
+  <p class="updated">Last updated: 11 November 2026</p>
+
+  <p>oyr is the bot we use in the Venture Discord servers. Venture is a Roblox roleplay community, and the bot is run by our staff team. This page explains what the bot looks at, what it saves, and what we do with it. If anything here is unclear, just ask us in the Discord.</p>
+
+  <h2>What the bot looks at</h2>
+  <p>When the bot needs to find someone in the server (for example when staff use <b>/wave</b> or <b>/purge</b>, or when a character is permanently killed in our game), it reads the member list. That means it sees your Discord user ID, username, display name, server nickname and roles.</p>
+  <p>It also needs to know which Roblox account is yours. It gets this from Bloxlink if you're verified there. If you aren't, it reads your nickname when it's in the <i>Name (@username)</i> format.</p>
+  <p>The member list is only kept in the bot's memory while it's running. It isn't written down anywhere.</p>
+
+  <h2>What the bot saves</h2>
+  <p>A few things are saved to files on the computer that runs the bot:</p>
+  <ul>
+    <li><b>Blacklist.</b> If staff blacklist a player, we save their Roblox username and ID, any Discord IDs linked to them, who added them, the reason and the date.</li>
+    <li><b>Patreon supporters.</b> If you support Venture on Patreon and have connected your Discord account there, we save the name on your Patreon account, your pledge status, tier and amount, when your pledge started, your last and next charge dates and status, and your Discord ID. This is how supporter perks are given out.</li>
+    <li><b>Friend waves.</b> If you use the friend-wave perk, we save your Discord ID, who you waved and the month, so it can only be used once a month.</li>
+  </ul>
+  <p>The bot also reads training exam results (Roblox username, character name and score) from our game's own log posts and from your game save, to put together a ranking for each training class. The ranking is posted in a staff channel.</p>
+
+  <h2>What the bot doesn't do</h2>
+  <ul>
+    <li>It can't read your messages. It doesn't have message content access, and the only posts it reads are our game's automatic logs, which mention the bot.</li>
+    <li>It doesn't track whether you're online or what you're playing.</li>
+    <li>It doesn't read DMs or voice, and never sees emails or payment card details.</li>
+    <li>We don't sell your data or give it to anyone.</li>
+  </ul>
+
+  <h2>Why we use it</h2>
+  <ul>
+    <li>Giving and removing the Waved role so it matches your rank in our Roblox group.</li>
+    <li>Removing inactive members, but only after staff check the list and confirm.</li>
+    <li>Removing members whose character is permanently killed in our game, as our community rules say.</li>
+    <li>Keeping blacklisted players out.</li>
+    <li>Giving Patreon supporters their perks, and telling staff when someone loses the supporter role.</li>
+    <li>Ranking training classes from their exam scores.</li>
+  </ul>
+
+  <h2>Other services</h2>
+  <p>To do all this, the bot talks to Discord, Roblox, Bloxlink and Patreon. Each of those has its own privacy policy. We only ask them for what the features above need.</p>
+
+  <h2>How long we keep things</h2>
+  <ul>
+    <li>Blacklist entries stay until staff remove them.</li>
+    <li>Patreon info is refreshed every few minutes. If you stop supporting, you drop off it at the next refresh.</li>
+    <li>Friend-wave records only matter for the current month, and older ones can be cleared at any time.</li>
+  </ul>
+
+  <h2>Your data, your call</h2>
+  <p>If you want to know what the bot has saved about you, or want it deleted, open a ticket or message a staff member in the Venture Discord. You can also disconnect Discord from your Patreon account or unlink Bloxlink whenever you like. Blacklist entries are up to staff, but we'll always tell you what yours says and why it's there.</p>
+
+  <h2>Age</h2>
+  <p>The bot is only used in our servers, which follow Discord's age requirements and our own community rules. We don't knowingly keep data about anyone under the age Discord allows.</p>
+
+  <h2>Changes</h2>
+  <p>If the bot starts saving anything new, we'll update this page and the date at the top.</p>
+
+  <hr>
+  <p class="small">Questions? Ask the Venture staff team in our Discord. oyr isn't made or endorsed by Discord, Roblox, Bloxlink or Patreon.</p>
+</div>
+</body>
+</html>
